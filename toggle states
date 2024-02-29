@@ -1,0 +1,89 @@
+################################
+#basic toggles and for loops
+#j Roberts 
+#feb 29 2024
+################################
+
+#basic format for a toggle switch and for loop
+toggle = true 
+
+#function returns toggle state to console/shell
+def toggle_state():
+    if toggle:
+         print("toggle is true")
+    else:
+         print ("toggle is false")
+     
+#loop returns toggle state 60 times before existing
+         for x in range(61):
+        print("current loop: ", x)
+           
+           toggle_state()
+           
+#boolean toggle switch of current state   
+togggle = not toggle
+#final value of toggle state
+toggle_state()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################
+#basic flips and for loops
+#j Roberts 
+#feb 29 2024
+################################
+
+#basic format for a flip switch and for loop
+flip = True 
+
+#function returns flip state to console/shell
+def flip_state():
+    if flip:
+         print("light flip is true")
+    else:
+         print ("light flip is false")
+     
+#loop returns flip state 60 times before existing
+for x in range(61):
+        print("current loop: ", x)
+        
+flip_state()
+           
+#boolean flip switch of current state   
+flip = not flip
+#final value of toggle state
+flip_state()
